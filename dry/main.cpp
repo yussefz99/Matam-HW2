@@ -7,8 +7,8 @@ using std::cout, std::endl;
 
 int main() {
 
-    Pirate luffy("Luffy",1000000);
-    Pirate zoro("Zoro",500000);
+    Pirate luffy("Luffy",1000000,GUM_GUM_FRUIT);
+    Pirate zoro("Zoro",500000,GUM_GUM_FRUIT);
 
     const int crewSize = 2;
     
