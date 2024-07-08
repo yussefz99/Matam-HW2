@@ -16,13 +16,30 @@ private:
 public:
 
     Matrix(int n,int m);
-    Matrix()=default;
+    Matrix();
     Matrix(const Matrix& other);
     Matrix& operator=(const Matrix& other);
     ~Matrix();
+    Matrix& rotateClockwise();
+    Matrix& rotateCounterClockwise();
+    Matrix& transpose();
     int& operator()(int i , int j);
     int& operator()(int i , int j)const;
-    friend std::ostream& operator<<(std::ostream&, const Matrix& frame);//privte???????
+    Matrix& operator+=(const Matrix& frame);
+    Matrix& operator-=(const Matrix& frame);
+    Matrix& operator*=(const Matrix& frame);
+    Matrix& operator*=(int k);
+    Matrix& operator*(int k);
+    Matrix& operator-();
+    friend bool operator!=(const Matrix& frame1, const Matrix& frame2);
+    friend bool operator==(const Matrix& frame1, const Matrix& frame2);
+    friend Matrix& operator*(int k , Matrix& frame2);//?????????const
+    friend std::ostream& operator<<(std::ostream& os, const Matrix& frame);
 };
+Matrix operator+(const Matrix& frame1 , const Matrix& frame2);
+Matrix operator-(const Matrix& frame1 , const Matrix& frame2);
+Matrix operator*(const Matrix& frame1 , const Matrix& frame2);
+
+
 
 #endif //WET_MATRIX_H
