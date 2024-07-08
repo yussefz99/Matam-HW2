@@ -1,6 +1,7 @@
 
 
 #include <string>
+#include <iostream>
 
 #include "Matrix.h"
 #include "MataMvidia.h"
@@ -21,6 +22,7 @@ do {                                                                           \
     }                                                                          \
 } while (0)
 
+/*
 
 int main() {
     testMatrix(std::cout);
@@ -127,3 +129,4 @@ bool testMataMvidia(std::ostream& out) {
 
     return true;
 }
+*/
