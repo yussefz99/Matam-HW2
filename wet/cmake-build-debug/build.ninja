@@ -77,13 +77,6 @@ build CMakeFiles/wet.dir/MataMvidia.cpp.obj: CXX_COMPILER__wet_unscanned_Debug C
   OBJECT_DIR = CMakeFiles\wet.dir
   OBJECT_FILE_DIR = CMakeFiles\wet.dir
 
-build CMakeFiles/wet.dir/main.cpp.obj: CXX_COMPILER__wet_unscanned_Debug C$:/Users/yusse/OneDrive/מסמכים/GitHub/Matam-HW2/wet/main.cpp || cmake_object_order_depends_target_wet
-  DEP_FILE = CMakeFiles\wet.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/yusse/OneDrive/מסמכים/GitHub/Matam-HW2/wet/.
-  OBJECT_DIR = CMakeFiles\wet.dir
-  OBJECT_FILE_DIR = CMakeFiles\wet.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target wet
@@ -92,7 +85,7 @@ build CMakeFiles/wet.dir/main.cpp.obj: CXX_COMPILER__wet_unscanned_Debug C$:/Use
 #############################################
 # Link the executable wet.exe
 
-build wet.exe: CXX_EXECUTABLE_LINKER__wet_Debug CMakeFiles/wet.dir/tests.cpp.obj CMakeFiles/wet.dir/Utilities.cpp.obj CMakeFiles/wet.dir/Matrix.cpp.obj CMakeFiles/wet.dir/MataMvidia.cpp.obj CMakeFiles/wet.dir/main.cpp.obj
+build wet.exe: CXX_EXECUTABLE_LINKER__wet_Debug CMakeFiles/wet.dir/tests.cpp.obj CMakeFiles/wet.dir/Utilities.cpp.obj CMakeFiles/wet.dir/Matrix.cpp.obj CMakeFiles/wet.dir/MataMvidia.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\wet.dir

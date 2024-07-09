@@ -8,9 +8,7 @@ include_directories(.)
 add_executable(wet
         tests.cpp
         Utilities.cpp
-        Utilities.h
-        Matrix.h
         Matrix.cpp
-        MataMvidia.h
         MataMvidia.cpp
-        main.cpp)
+
+)

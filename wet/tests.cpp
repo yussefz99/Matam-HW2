@@ -22,7 +22,7 @@ do {                                                                           \
     }                                                                          \
 } while (0)
 
-/*
+
 
 int main() {
     testMatrix(std::cout);
@@ -129,4 +129,3 @@ bool testMataMvidia(std::ostream& out) {
 
     return true;
 }
-*/
