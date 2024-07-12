@@ -4,6 +4,9 @@
 #include "Matrix.h"
 
 Matrix::Matrix(int n, int m):n_rows(n),m_colums(m),m_Matrix(new int[m*n]) {
+    if(n<=0 || m<=0){
+        exitWithError(MatamErrorType::OutOfBounds);
+    }
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
                 m_Matrix[i*m+j]=0;
@@ -47,7 +50,6 @@ int& Matrix::operator()(int i, int j){
     if(i < 0 || j< 0 || i >= n_rows || j >= m_colums){
         exitWithError(MatamErrorType::OutOfBounds);
     }
-   // if(m_Matrix == nullptr)exitWithError();
     return m_Matrix[i * m_colums + j];
 }
  int& Matrix::operator()(int i, int j)const{
@@ -134,7 +136,7 @@ Matrix operator-(const Matrix& frame1 , const Matrix& frame2){
     return res;
 }
 
-Matrix &Matrix::operator-() {
+Matrix Matrix::operator-() { //&
     return (*this)*-1;
 }
 
@@ -144,16 +146,17 @@ Matrix operator*(const Matrix& frame1 , const Matrix& frame2){
     return res;
 }
 
-Matrix &Matrix::operator*(int k) {
+Matrix Matrix::operator*(int k) { //&
+    Matrix newMarix(n_rows,m_colums);//
     for(int i=0;i<n_rows;i++){
         for(int j=0;j<m_colums;j++){
-            m_Matrix[(i*m_colums)+j]*=k;
+            newMarix.m_Matrix[i*m_colums+j]=m_Matrix[i*m_colums+j]*k;
         }
     }
-    return *this;
+    return newMarix;
 }
 
-Matrix& operator*(int k, Matrix &frame2) {
+Matrix operator*(int k, Matrix &frame2) {//&
     return frame2*k;
 }
 
@@ -163,7 +166,7 @@ bool operator==(const Matrix& frame1, const Matrix& frame2){
     int m =frame1.m_colums;
     for(int i=0;i<n;i++){
         for(int j=0;j<m;j++){
-            if(frame1.m_Matrix[(i*m)+j] != frame2.m_Matrix[(i*m)+j])return false;
+            if(frame1.m_Matrix[i*m+j] != frame2.m_Matrix[i*m+j])return false;
         }
     }
     return true;
@@ -173,43 +176,49 @@ bool operator!=(const Matrix& frame1, const Matrix& frame2){
     return !(frame1==frame2);
 }
 
-Matrix& Matrix::rotateClockwise() {
+Matrix Matrix::rotateClockwise() {
+    Matrix RotateMatrix(m_colums,n_rows);
     int* newMatrix = new int[m_colums * n_rows];
     for (int i = 0; i < n_rows; ++i) {
         for (int j = 0; j < m_colums; ++j) {
             newMatrix[j * n_rows + (n_rows - 1 - i)] = m_Matrix[i * m_colums + j];
         }
     }
-    delete[] m_Matrix;
-    m_Matrix = newMatrix;
-    std::swap(n_rows, m_colums);
-    return *this;
+    delete[] RotateMatrix.m_Matrix;
+    RotateMatrix.m_Matrix = newMatrix;
+    //std::swap(n_rows, m_colums);
+    return RotateMatrix;
 }
 
-Matrix& Matrix::rotateCounterClockwise() {
+Matrix Matrix::rotateCounterClockwise() {
+    Matrix RotateMatrix(m_colums,n_rows);
     int* newMatrix = new int[m_colums * n_rows];
     for (int i = 0; i < n_rows; ++i) {
         for (int j = 0; j < m_colums; ++j) {
             newMatrix[(m_colums - 1 - j) * n_rows + i] = m_Matrix[i * m_colums + j];
         }
     }
-    delete[] m_Matrix;
-    m_Matrix = newMatrix;
-    std::swap(n_rows, m_colums);
-    return *this;
+    delete[] RotateMatrix.m_Matrix;
+    RotateMatrix.m_Matrix = newMatrix;
+   // std::swap(n_rows, m_colums);
+    return RotateMatrix;
 }
 
-Matrix &Matrix::transpose() {
+Matrix Matrix::transpose() {
+    Matrix transMatrix(m_colums,n_rows);
     int* newMatrix = new int[m_colums * n_rows];
     for (int i = 0; i < n_rows; ++i) {
         for (int j = 0; j < m_colums; ++j) {
             newMatrix[j * n_rows + i] = m_Matrix[i * m_colums + j];
         }
     }
-    delete[] m_Matrix;
-    m_Matrix = newMatrix;
-    std::swap(n_rows, m_colums);
-    return *this;
+    delete[] transMatrix.m_Matrix;
+    transMatrix.m_Matrix = newMatrix;
+//    int rows=n_rows;
+//    int coloums = m_colums;
+//    n_rows=coloums;
+//    m_colums=rows;
+    return transMatrix;
 }
 
 

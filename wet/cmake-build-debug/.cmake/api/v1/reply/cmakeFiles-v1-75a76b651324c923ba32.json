@@ -54,6 +54,21 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
+			"path" : "C:/Users/yusse/AppData/Local/JetBrains/CLion 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeFindCodeBlocks.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/yusse/AppData/Local/JetBrains/CLion 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/yusse/AppData/Local/JetBrains/CLion 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/ProcessorCount.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
 			"path" : "C:/Users/yusse/AppData/Local/JetBrains/CLion 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake"
 		},
 		{
@@ -154,8 +169,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/yusse/OneDrive/\u05de\u05e1\u05de\u05db\u05d9\u05dd/GitHub/Matam-HW2/wet/cmake-build-debug",
-		"source" : "C:/Users/yusse/OneDrive/\u05de\u05e1\u05de\u05db\u05d9\u05dd/GitHub/Matam-HW2/wet"
+		"build" : "C:/Users/yusse/OneDrive/Desktop/Matam-HW2/wet/cmake-build-debug",
+		"source" : "C:/Users/yusse/OneDrive/Desktop/Matam-HW2/wet"
 	},
 	"version" : 
 	{

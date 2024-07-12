@@ -2,14 +2,14 @@
 // Created by yusse on 08/07/2024.
 //
 #include <iostream>
-#include "Utilities.h"
 #include "Matrix.h"
 #ifndef WET_MATAMVIDIA_H
 #define WET_MATAMVIDIA_H
 
 class MataMvidia{
 public:
-    MataMvidia(std::string name, std::string made ,Matrix* arr , int len);
+    MataMvidia( std::string name,std::string made ,Matrix* arr , int len);
+    MataMvidia();
     MataMvidia(const MataMvidia& other);
     MataMvidia& operator=(const MataMvidia& other);
     ~MataMvidia();
@@ -21,10 +21,10 @@ public:
     friend std::ostream& operator<<(std::ostream&, const MataMvidia& frame);
 
 private:
+    std::string m_filmName;
+    std::string m_madeName;
     Matrix* mata_Arr;
     int m_length;
-    std::string& m_filmName;
-    std::string& m_madeName;
 };
 MataMvidia operator+(const MataMvidia& m1 , const MataMvidia& m2);
 

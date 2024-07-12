@@ -10,5 +10,5 @@ add_executable(wet
         Utilities.cpp
         Matrix.cpp
         MataMvidia.cpp
-
+        more_tests.cpp
 )

@@ -1,12 +1,13 @@
 # ninja log v5
-15	819	7421553335865203	CMakeFiles/wet.dir/tests.cpp.obj	69a170a7d5346555
-50	921	7421553336942528	CMakeFiles/wet.dir/MataMvidia.cpp.obj	8f95943226f3a0cf
-921	1089	7421553338594010	wet.exe	b8ce6708ec8516e6
-3	802	7421553335236934	CMakeFiles/wet.dir/Utilities.cpp.obj	1cac43278d5dd6de
-24	902	7421553336779590	CMakeFiles/wet.dir/Matrix.cpp.obj	f433e96025d5e84c
-1	171	7421642901656265	build.ninja	fa4f1908dee83bce
-34	824	7421642910178233	CMakeFiles/wet.dir/Utilities.cpp.obj	1cac43278d5dd6de
 15	867	7421642910613428	CMakeFiles/wet.dir/MataMvidia.cpp.obj	8f95943226f3a0cf
 4	868	7421642910613428	CMakeFiles/wet.dir/tests.cpp.obj	69a170a7d5346555
-47	899	7421642910931794	CMakeFiles/wet.dir/Matrix.cpp.obj	f433e96025d5e84c
+34	824	7421642910178233	CMakeFiles/wet.dir/Utilities.cpp.obj	1cac43278d5dd6de
 899	1091	7421642912793544	wet.exe	588c2b0618f307be
+47	899	7421642910931794	CMakeFiles/wet.dir/Matrix.cpp.obj	f433e96025d5e84c
+1	171	7422168961712585	build.ninja	fa4f1908dee83bce
+1	233	7422168961712585	build.ninja	fa4f1908dee83bce
+4	1081	7422168972909599	CMakeFiles/wet.dir/Utilities.cpp.obj	1cac43278d5dd6de
+64	1097	7422168973071065	CMakeFiles/wet.dir/tests.cpp.obj	69a170a7d5346555
+17	1109	7422168973201152	CMakeFiles/wet.dir/Matrix.cpp.obj	f433e96025d5e84c
+49	1110	7422168973191197	CMakeFiles/wet.dir/MataMvidia.cpp.obj	8f95943226f3a0cf
+1110	1554	7422168977601946	wet.exe	588c2b0618f307be
