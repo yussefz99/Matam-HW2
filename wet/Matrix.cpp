@@ -4,7 +4,7 @@
 #include "Matrix.h"
 
 Matrix::Matrix(int n, int m):n_rows(n),m_colums(m),m_Matrix(new int[m*n]) {
-  
+
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
                 m_Matrix[i*m+j]=0;
@@ -135,7 +135,8 @@ Matrix operator-(const Matrix& frame1 , const Matrix& frame2){
 }
 
 Matrix Matrix::operator-() { //&
-    return (*this)*-1;
+    Matrix newMatrix= *this;
+    return newMatrix*-1;
 }
 
 Matrix operator*(const Matrix& frame1 , const Matrix& frame2){

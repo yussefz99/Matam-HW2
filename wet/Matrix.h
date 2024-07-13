@@ -11,7 +11,7 @@ private:
 
     int n_rows;
     int m_colums;
-    int* m_Matrix;//??????
+    int* m_Matrix;
 
 public:
 
@@ -31,11 +31,15 @@ public:
     Matrix& operator*=(int k);
     Matrix operator*(int k);//&
     Matrix operator-();//&
+
+    // Friend functions
     friend bool operator!=(const Matrix& frame1, const Matrix& frame2);
     friend bool operator==(const Matrix& frame1, const Matrix& frame2);
-    friend Matrix operator*(int k , Matrix& frame2);//?????????const  &&&
+    friend Matrix operator*(int k , Matrix& frame2);//&&&
     friend std::ostream& operator<<(std::ostream& os, const Matrix& frame);
 };
+
+// Non-member operators
 Matrix operator+(const Matrix& frame1 , const Matrix& frame2);
 Matrix operator-(const Matrix& frame1 , const Matrix& frame2);
 Matrix operator*(const Matrix& frame1 , const Matrix& frame2);

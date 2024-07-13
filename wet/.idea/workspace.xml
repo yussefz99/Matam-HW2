@@ -23,6 +23,7 @@
     <list default="true" id="63a94b22-9c8d-45e0-aa62-9828eaf382fa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Matrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Matrix.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/Matrix.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +87,7 @@
       <workItem from="1720514087184" duration="2571000" />
       <workItem from="1720535443808" duration="133000" />
       <workItem from="1720791593662" duration="1265000" />
-      <workItem from="1720794207347" duration="5760000" />
+      <workItem from="1720794207347" duration="6075000" />
     </task>
     <servers />
   </component>
