@@ -4,9 +4,7 @@
 #include "Matrix.h"
 
 Matrix::Matrix(int n, int m):n_rows(n),m_colums(m),m_Matrix(new int[m*n]) {
-    if(n<=0 || m<=0){
-        exitWithError(MatamErrorType::OutOfBounds);
-    }
+  
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
                 m_Matrix[i*m+j]=0;
