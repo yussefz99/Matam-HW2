@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/yusse/OneDrive/\u05de\u05e1\u05de\u05db\u05d9\u05dd/GitHub/Matam-HW2/dry/cmake-build-debug"
+			"value" : "c:/Users/yusse/OneDrive/Desktop/Matam-HW2/dry/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -643,7 +643,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/yusse/OneDrive/\u05de\u05e1\u05de\u05db\u05d9\u05dd/GitHub/Matam-HW2/dry/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/yusse/OneDrive/Desktop/Matam-HW2/dry/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -715,7 +715,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/yusse/OneDrive/\u05de\u05e1\u05de\u05db\u05d9\u05dd/GitHub/Matam-HW2/dry"
+			"value" : "C:/Users/yusse/OneDrive/Desktop/Matam-HW2/dry"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1363,7 +1363,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/yusse/OneDrive/\u05de\u05e1\u05de\u05db\u05d9\u05dd/GitHub/Matam-HW2/dry/cmake-build-debug"
+			"value" : "C:/Users/yusse/OneDrive/Desktop/Matam-HW2/dry/cmake-build-debug"
 		},
 		{
 			"name" : "dry_IS_TOP_LEVEL",
@@ -1387,7 +1387,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/yusse/OneDrive/\u05de\u05e1\u05de\u05db\u05d9\u05dd/GitHub/Matam-HW2/dry"
+			"value" : "C:/Users/yusse/OneDrive/Desktop/Matam-HW2/dry"
 		}
 	],
 	"kind" : "cache",

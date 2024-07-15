@@ -200,30 +200,6 @@ Utilities.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\wet.dir\build.make CMakeFiles/wet.dir/Utilities.cpp.s
 .PHONY : Utilities.cpp.s
 
-more_tests.obj: more_tests.cpp.obj
-.PHONY : more_tests.obj
-
-# target to build an object file
-more_tests.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\wet.dir\build.make CMakeFiles/wet.dir/more_tests.cpp.obj
-.PHONY : more_tests.cpp.obj
-
-more_tests.i: more_tests.cpp.i
-.PHONY : more_tests.i
-
-# target to preprocess a source file
-more_tests.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\wet.dir\build.make CMakeFiles/wet.dir/more_tests.cpp.i
-.PHONY : more_tests.cpp.i
-
-more_tests.s: more_tests.cpp.s
-.PHONY : more_tests.s
-
-# target to generate assembly for a file
-more_tests.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\wet.dir\build.make CMakeFiles/wet.dir/more_tests.cpp.s
-.PHONY : more_tests.cpp.s
-
 tests.obj: tests.cpp.obj
 .PHONY : tests.obj
 
@@ -266,9 +242,6 @@ help:
 	@echo ... Utilities.obj
 	@echo ... Utilities.i
 	@echo ... Utilities.s
-	@echo ... more_tests.obj
-	@echo ... more_tests.i
-	@echo ... more_tests.s
 	@echo ... tests.obj
 	@echo ... tests.i
 	@echo ... tests.s

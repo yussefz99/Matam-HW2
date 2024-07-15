@@ -52,10 +52,10 @@ RM = "C:\Users\yusse\AppData\Local\JetBrains\CLion 2023.3.3\bin\cmake\win\x64\bi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\yusse\OneDrive\מסמכים\GitHub\Matam-HW2\dry
+CMAKE_SOURCE_DIR = C:\Users\yusse\OneDrive\Desktop\Matam-HW2\dry
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\yusse\OneDrive\מסמכים\GitHub\Matam-HW2\dry\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\yusse\OneDrive\Desktop\Matam-HW2\dry\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/dry.dir/depend.make
@@ -70,33 +70,33 @@ include CMakeFiles/dry.dir/flags.make
 
 CMakeFiles/dry.dir/main.cpp.obj: CMakeFiles/dry.dir/flags.make
 CMakeFiles/dry.dir/main.cpp.obj: CMakeFiles/dry.dir/includes_CXX.rsp
-CMakeFiles/dry.dir/main.cpp.obj: C:/Users/yusse/OneDrive/מסמכים/GitHub/Matam-HW2/dry/main.cpp
+CMakeFiles/dry.dir/main.cpp.obj: C:/Users/yusse/OneDrive/Desktop/Matam-HW2/dry/main.cpp
 CMakeFiles/dry.dir/main.cpp.obj: CMakeFiles/dry.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\yusse\OneDrive\מסמכים\GitHub\Matam-HW2\dry\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dry.dir/main.cpp.obj"
-	C:\Users\yusse\AppData\Local\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dry.dir/main.cpp.obj -MF CMakeFiles\dry.dir\main.cpp.obj.d -o CMakeFiles\dry.dir\main.cpp.obj -c C:\Users\yusse\OneDrive\מסמכים\GitHub\Matam-HW2\dry\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\yusse\OneDrive\Desktop\Matam-HW2\dry\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dry.dir/main.cpp.obj"
+	C:\Users\yusse\AppData\Local\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dry.dir/main.cpp.obj -MF CMakeFiles\dry.dir\main.cpp.obj.d -o CMakeFiles\dry.dir\main.cpp.obj -c C:\Users\yusse\OneDrive\Desktop\Matam-HW2\dry\main.cpp
 
 CMakeFiles/dry.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dry.dir/main.cpp.i"
-	C:\Users\yusse\AppData\Local\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\yusse\OneDrive\מסמכים\GitHub\Matam-HW2\dry\main.cpp > CMakeFiles\dry.dir\main.cpp.i
+	C:\Users\yusse\AppData\Local\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\yusse\OneDrive\Desktop\Matam-HW2\dry\main.cpp > CMakeFiles\dry.dir\main.cpp.i
 
 CMakeFiles/dry.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dry.dir/main.cpp.s"
-	C:\Users\yusse\AppData\Local\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\yusse\OneDrive\מסמכים\GitHub\Matam-HW2\dry\main.cpp -o CMakeFiles\dry.dir\main.cpp.s
+	C:\Users\yusse\AppData\Local\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\yusse\OneDrive\Desktop\Matam-HW2\dry\main.cpp -o CMakeFiles\dry.dir\main.cpp.s
 
 CMakeFiles/dry.dir/Pirate.cpp.obj: CMakeFiles/dry.dir/flags.make
 CMakeFiles/dry.dir/Pirate.cpp.obj: CMakeFiles/dry.dir/includes_CXX.rsp
-CMakeFiles/dry.dir/Pirate.cpp.obj: C:/Users/yusse/OneDrive/מסמכים/GitHub/Matam-HW2/dry/Pirate.cpp
+CMakeFiles/dry.dir/Pirate.cpp.obj: C:/Users/yusse/OneDrive/Desktop/Matam-HW2/dry/Pirate.cpp
 CMakeFiles/dry.dir/Pirate.cpp.obj: CMakeFiles/dry.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\yusse\OneDrive\מסמכים\GitHub\Matam-HW2\dry\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dry.dir/Pirate.cpp.obj"
-	C:\Users\yusse\AppData\Local\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dry.dir/Pirate.cpp.obj -MF CMakeFiles\dry.dir\Pirate.cpp.obj.d -o CMakeFiles\dry.dir\Pirate.cpp.obj -c C:\Users\yusse\OneDrive\מסמכים\GitHub\Matam-HW2\dry\Pirate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\yusse\OneDrive\Desktop\Matam-HW2\dry\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dry.dir/Pirate.cpp.obj"
+	C:\Users\yusse\AppData\Local\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dry.dir/Pirate.cpp.obj -MF CMakeFiles\dry.dir\Pirate.cpp.obj.d -o CMakeFiles\dry.dir\Pirate.cpp.obj -c C:\Users\yusse\OneDrive\Desktop\Matam-HW2\dry\Pirate.cpp
 
 CMakeFiles/dry.dir/Pirate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dry.dir/Pirate.cpp.i"
-	C:\Users\yusse\AppData\Local\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\yusse\OneDrive\מסמכים\GitHub\Matam-HW2\dry\Pirate.cpp > CMakeFiles\dry.dir\Pirate.cpp.i
+	C:\Users\yusse\AppData\Local\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\yusse\OneDrive\Desktop\Matam-HW2\dry\Pirate.cpp > CMakeFiles\dry.dir\Pirate.cpp.i
 
 CMakeFiles/dry.dir/Pirate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dry.dir/Pirate.cpp.s"
-	C:\Users\yusse\AppData\Local\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\yusse\OneDrive\מסמכים\GitHub\Matam-HW2\dry\Pirate.cpp -o CMakeFiles\dry.dir\Pirate.cpp.s
+	C:\Users\yusse\AppData\Local\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\yusse\OneDrive\Desktop\Matam-HW2\dry\Pirate.cpp -o CMakeFiles\dry.dir\Pirate.cpp.s
 
 # Object files for target dry
 dry_OBJECTS = \
@@ -112,7 +112,7 @@ dry.exe: CMakeFiles/dry.dir/build.make
 dry.exe: CMakeFiles/dry.dir/linkLibs.rsp
 dry.exe: CMakeFiles/dry.dir/objects1.rsp
 dry.exe: CMakeFiles/dry.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\yusse\OneDrive\מסמכים\GitHub\Matam-HW2\dry\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable dry.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\yusse\OneDrive\Desktop\Matam-HW2\dry\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable dry.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\dry.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -124,6 +124,6 @@ CMakeFiles/dry.dir/clean:
 .PHONY : CMakeFiles/dry.dir/clean
 
 CMakeFiles/dry.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\yusse\OneDrive\מסמכים\GitHub\Matam-HW2\dry C:\Users\yusse\OneDrive\מסמכים\GitHub\Matam-HW2\dry C:\Users\yusse\OneDrive\מסמכים\GitHub\Matam-HW2\dry\cmake-build-debug C:\Users\yusse\OneDrive\מסמכים\GitHub\Matam-HW2\dry\cmake-build-debug C:\Users\yusse\OneDrive\מסמכים\GitHub\Matam-HW2\dry\cmake-build-debug\CMakeFiles\dry.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\yusse\OneDrive\Desktop\Matam-HW2\dry C:\Users\yusse\OneDrive\Desktop\Matam-HW2\dry C:\Users\yusse\OneDrive\Desktop\Matam-HW2\dry\cmake-build-debug C:\Users\yusse\OneDrive\Desktop\Matam-HW2\dry\cmake-build-debug C:\Users\yusse\OneDrive\Desktop\Matam-HW2\dry\cmake-build-debug\CMakeFiles\dry.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/dry.dir/depend
 

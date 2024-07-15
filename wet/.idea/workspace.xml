@@ -21,9 +21,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63a94b22-9c8d-45e0-aa62-9828eaf382fa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../dry/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../dry/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dry/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../dry/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dry/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../dry/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dry/cmake-build-debug/dry.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../dry/cmake-build-debug/dry.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Matrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Matrix.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/Matrix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/wet.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/wet.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/more_tests.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,9 +70,9 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
     <configuration name="wet" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="wet" TARGET_NAME="wet" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="wet" RUN_TARGET_NAME="wet">
@@ -87,7 +93,8 @@
       <workItem from="1720514087184" duration="2571000" />
       <workItem from="1720535443808" duration="133000" />
       <workItem from="1720791593662" duration="1265000" />
-      <workItem from="1720794207347" duration="6075000" />
+      <workItem from="1720794207347" duration="7536000" />
+      <workItem from="1721059260454" duration="103000" />
     </task>
     <servers />
   </component>

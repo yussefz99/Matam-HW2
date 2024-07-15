@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/yusse/OneDrive/מסמכים/GitHub/Matam-HW2/dry/Pirate.cpp" "CMakeFiles/dry.dir/Pirate.cpp.obj" "gcc" "CMakeFiles/dry.dir/Pirate.cpp.obj.d"
-  "C:/Users/yusse/OneDrive/מסמכים/GitHub/Matam-HW2/dry/main.cpp" "CMakeFiles/dry.dir/main.cpp.obj" "gcc" "CMakeFiles/dry.dir/main.cpp.obj.d"
+  "C:/Users/yusse/OneDrive/Desktop/Matam-HW2/dry/Pirate.cpp" "CMakeFiles/dry.dir/Pirate.cpp.obj" "gcc" "CMakeFiles/dry.dir/Pirate.cpp.obj.d"
+  "C:/Users/yusse/OneDrive/Desktop/Matam-HW2/dry/main.cpp" "CMakeFiles/dry.dir/main.cpp.obj" "gcc" "CMakeFiles/dry.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -5,8 +5,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/wet.dir/Matrix.cpp.obj.d"
   "CMakeFiles/wet.dir/Utilities.cpp.obj"
   "CMakeFiles/wet.dir/Utilities.cpp.obj.d"
-  "CMakeFiles/wet.dir/more_tests.cpp.obj"
-  "CMakeFiles/wet.dir/more_tests.cpp.obj.d"
   "CMakeFiles/wet.dir/tests.cpp.obj"
   "CMakeFiles/wet.dir/tests.cpp.obj.d"
   "libwet.dll.a"

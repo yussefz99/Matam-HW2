@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/yusse/OneDrive/מסמכים/GitHub/Matam-HW2/dry
+# Install script for directory: C:/Users/yusse/OneDrive/Desktop/Matam-HW2/dry
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/yusse/OneDrive/מסמכים/GitHub/Matam-HW2/dry/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/yusse/OneDrive/Desktop/Matam-HW2/dry/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
